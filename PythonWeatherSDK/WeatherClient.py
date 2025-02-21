@@ -1,8 +1,8 @@
 import requests
 from requests.exceptions import RequestException
 
-from WeatherData import WeatherData
-from WeatherClientException import WeatherClientException
+from PythonWeatherSDK.WeatherData import WeatherData
+from PythonWeatherSDK.WeatherClientException import WeatherClientException
 
 
 class WeatherClient:

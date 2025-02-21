@@ -3,10 +3,10 @@ import time
 from typing import Dict, Optional
 import json
 
-from WeatherClient import WeatherClient
-from CachedWeather import CachedWeather
-from WeatherClientException import WeatherClientException
-from Mode import Mode
+from PythonWeatherSDK.WeatherClient import WeatherClient
+from PythonWeatherSDK.CachedWeather import CachedWeather
+from PythonWeatherSDK.WeatherClientException import WeatherClientException
+from PythonWeatherSDK.Mode import Mode
 
 
 class WeatherSDK:
